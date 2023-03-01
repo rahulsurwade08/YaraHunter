@@ -28,7 +28,7 @@ RUN make clean \
     && cd /home/deepfence \
     && git clone https://github.com/deepfence/yara-rules
 
-FROM debian:bullseye
+FROM debian:11
 MAINTAINER DeepFence
 LABEL deepfence.role=system
 
